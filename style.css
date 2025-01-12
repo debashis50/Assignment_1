@@ -37,7 +37,7 @@ nav {
     border: 1px solid #006A50;
 }
 .navBtn:hover{
-    background-color: #006A50;
+    background-color: #5490F5;
     color: #FFFFFF;
     transition: 0.5s ease;
 }
@@ -72,8 +72,98 @@ nav {
     cursor: pointer;
 }
 .bannerBtn:hover {
-    background: none;
-    color: rgba(0, 106, 80, 1);
-    border: 1px solid hwb(165 0% 58%);
+    background-color: #32be8b;
+    color: #FFFFFF;
+    transition: 0.5s ease;
+}
+.visionfuture {
+    margin: 80px 160px;
+}
+.visionContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+.visionheading {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 24px;
+    color: #0E0E0E !important
+}
+.visiontitle {
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 32px;
+    color: rgba(14, 14, 14, 0.7);
+}
+.vision {
+    background-color: rgba(84, 144, 245, 0.2);
+    border: none;
+    padding: 32px;
+    border-radius: 16px;
+}
+.vision.vision2 {
+    background-color: rgba(198, 228, 214, 1);
+}
+.vision.vision3 {
+    background-color: rgba(247, 235, 207, 1);
+}
+.vision img {
+    padding: 20px 0;
+}
+.futureheading {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 12px;
+    color: rgba(14, 14, 14, 1);
+}
+.futuredetails {
+    font-size: 16px;
+    margin-bottom: 24px;
+    color: rgba(14, 14, 14, 0.7);
+    font-weight: 400;
+}
+.visionBtn {
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+}
+.visionBtn.visionBtn1 {
+    background-color: #5490F5;
+    color: #FFFFFF;
+    border: 1px solid #5490F5;
+    cursor: pointer;
+}
+.visionBtn.visionBtn1:hover{
+    background: rgb(82, 82, 231);
+    border: 1px solid #5490F5;
+    color: #e9edf4;
+    transition: 0.5s ease;
+}
+.visionBtn.visionBtn2 {
+    background-color: #09A15C;
+    color: #FFFFFF;
+    border: 1px solid #09A15C;
+    cursor: pointer;
+}
+.visionBtn.visionBtn2:hover{
+    background: rgb(26, 211, 26);
+    border: 1px solid #09A15C;
+    color: #ffffff;
+    transition: 0.5s ease;
+}
+.visionBtn.visionBtn3 {
+    background-color: #FFC239;
+    color: #FFFFFF;
+    border: 1px solid #FFC239;
+    cursor: pointer;
+}
+.visionBtn.visionBtn3:hover{
+    background: rgb(233, 197, 106);
+    border: 1px solid #FFC239;
+    color: #ffffff;
     transition: 0.5s ease;
 }
