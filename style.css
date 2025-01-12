@@ -37,7 +37,7 @@ nav {
     border: 1px solid #006A50;
 }
 .navBtn:hover{
-    background-color: #006A50;
+    background-color: #3bb798;
     color: #FFFFFF;
     transition: 0.5s ease;
 }
@@ -72,8 +72,8 @@ nav {
     cursor: pointer;
 }
 .bannerBtn:hover {
-    background: none;
-    color: rgba(0, 106, 80, 1);
+    background: rgb(23, 226, 23);
+    color: rgb(255, 255, 255);
     border: 1px solid hwb(165 0% 58%);
     transition: 0.5s ease;
 }
@@ -139,9 +139,9 @@ nav {
     cursor: pointer;
 }
 .visionBtn.visionBtn1:hover{
-    background: none;
+    background: rgb(71, 71, 214);
     border: 1px solid #5490F5;
-    color: #5490F5;
+    color: #ffffff;
     transition: 0.5s ease;
 }
 .visionBtn.visionBtn2 {
@@ -151,9 +151,9 @@ nav {
     cursor: pointer;
 }
 .visionBtn.visionBtn2:hover{
-    background: none;
+    background: rgb(74, 244, 74);
     border: 1px solid #09A15C;
-    color: #09A15C;
+    color: #ffffff;
     transition: 0.5s ease;
 }
 .visionBtn.visionBtn3 {
@@ -163,9 +163,9 @@ nav {
     cursor: pointer;
 }
 .visionBtn.visionBtn3:hover{
-    background: none;
+    background: rgb(229, 205, 71);
     border: 1px solid #FFC239;
-    color: #FFC239;
+    color: #ffffff;
     transition: 0.5s ease;
 }
 
@@ -263,8 +263,8 @@ nav {
     cursor: pointer;
 }
 .sateliteBtn:hover {
-    background: none;
-    color: rgba(0, 106, 80, 1);
+    background: rgb(77, 255, 77);
+    color: rgb(255, 255, 255);
     border: 1px solid rgba(0, 106, 80, 1);
     transition: 0.5s ease;
     
@@ -303,7 +303,7 @@ nav {
     cursor: default;
 }
 .donate:hover{
-    background-color: rgba(198, 228, 214, 1);
+    background-color:none;
     border: 1px solid rgba(198, 228, 214, 1);
     
 }
@@ -374,9 +374,9 @@ nav {
     cursor: pointer;
 }
 .donateBtn button:hover {
-    background-color: #FFFFFF;
+    background-color: #39fe02;
     border: 1px solid #006A50;
-    color: #006A50;
+    color: #ffffff;
 }
 .donateBtn {
     display: flex;
