@@ -216,4 +216,54 @@ nav {
     font-weight: 400;
     color: rgba(14, 14, 14, 0.7);
 }
-
+.satelite {
+    display: flex;
+    margin: 24px 160px;
+    justify-content: space-around;
+    background-color: rgba(255, 255, 255, 1);
+    padding: 40px;
+    border-radius: 24px;
+}
+.sateliteImg img{
+    border-radius: 24px;
+}
+.sateliteheading{
+    font-size: 32px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 0.8);
+}
+.sateliteContent {
+    margin: 20px 32px;
+}
+.d_a_t{
+    display: flex;
+    gap: 12px;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.7);
+    margin-bottom: 12px;
+    margin-top: 20px;
+}
+.satelitedesc {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.7);
+}
+.sateliteBtn {
+    font-size: 18px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 1);
+    padding: 13px 26px;
+    border-radius: 8px;
+    background-color: rgba(0, 106, 80, 1);
+    margin: 32px 0;
+    border: 1px solid rgba(0, 106, 80, 1);
+    cursor: pointer;
+}
+.sateliteBtn:hover {
+    background: none;
+    color: rgba(0, 106, 80, 1);
+    border: 1px solid rgba(0, 106, 80, 1);
+    transition: 0.5s ease;
+    
+}
