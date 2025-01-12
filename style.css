@@ -167,3 +167,38 @@ nav {
     color: #ffffff;
     transition: 0.5s ease;
 }
+.yunus{
+    /* position: relative; */
+    margin: 80px 160px;
+}
+.yunusImg {
+ position: relative;
+}
+.yunusImg img {
+    position: absolute;
+    padding: 24px;
+}
+.yunusContent {
+    /* position: absolute; */
+    top: 5%;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 16px;
+    padding: 48px 24px;
+}
+.yunusDetails {
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.8);
+    margin-bottom: 12px;
+    font-weight: 400;
+}
+.yunusheading {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 4px;
+    color: rgba(14, 14, 14, 1)
+}
+.yunustitle {
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.6);
+    font-weight: 400;
+}
