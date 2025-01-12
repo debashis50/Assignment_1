@@ -37,7 +37,7 @@ nav {
     border: 1px solid #006A50;
 }
 .navBtn:hover{
-    background-color: #5490F5;
+    background-color: #006A50;
     color: #FFFFFF;
     transition: 0.5s ease;
 }
@@ -72,8 +72,9 @@ nav {
     cursor: pointer;
 }
 .bannerBtn:hover {
-    background-color: #32be8b;
-    color: #FFFFFF;
+    background: none;
+    color: rgba(0, 106, 80, 1);
+    border: 1px solid hwb(165 0% 58%);
     transition: 0.5s ease;
 }
 .visionfuture {
@@ -138,9 +139,9 @@ nav {
     cursor: pointer;
 }
 .visionBtn.visionBtn1:hover{
-    background: rgb(82, 82, 231);
+    background: none;
     border: 1px solid #5490F5;
-    color: #e9edf4;
+    color: #5490F5;
     transition: 0.5s ease;
 }
 .visionBtn.visionBtn2 {
@@ -150,9 +151,9 @@ nav {
     cursor: pointer;
 }
 .visionBtn.visionBtn2:hover{
-    background: rgb(26, 211, 26);
+    background: none;
     border: 1px solid #09A15C;
-    color: #ffffff;
+    color: #09A15C;
     transition: 0.5s ease;
 }
 .visionBtn.visionBtn3 {
@@ -162,11 +163,12 @@ nav {
     cursor: pointer;
 }
 .visionBtn.visionBtn3:hover{
-    background: rgb(233, 197, 106);
+    background: none;
     border: 1px solid #FFC239;
-    color: #ffffff;
+    color: #FFC239;
     transition: 0.5s ease;
 }
+
 .yunus{
     /* position: relative; */
     margin: 80px 160px;
@@ -266,4 +268,203 @@ nav {
     border: 1px solid rgba(0, 106, 80, 1);
     transition: 0.5s ease;
     
+}
+.donate{
+    margin: 80px 160px;
+}
+.donatetitle{
+    font-size: 40px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 1);
+    text-align: center;
+}
+.donatedesc {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.7);
+    text-align: center;
+    margin-bottom: 24px;
+}
+.donateContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 32px;
+}
+.donate{
+    font-size: 40px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 0.8);
+    padding: 50px;
+    border-radius: 16px;
+    background-color: #ffffff;
+    border: 1px solid #c6e4d6;
+    cursor: default;
+}
+.donate:hover{
+    background-color: rgba(198, 228, 214, 1);
+    border: 1px solid rgba(198, 228, 214, 1);
+    
+}
+.donate.donate2 {
+    background-color: rgba(198, 228, 214, 1);
+}
+.amountContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tk{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 32px;
+  }
+  .btn_5{
+    padding: 30px;
+    font-weight: bolder;
+    border-radius: 16px;
+    font-size: 45px;
+    background-color: rgb(243, 243, 243);
+    border: 1px solid rgba(198, 228, 214, 1);
+    transition: .5s;
+
+  }
+  .btn_5:hover{
+    background-color: #5490F5;
+    color: #FFFFFF;
+  }
+  .back{
+    padding: 30px;
+    font-weight: bolder;
+    border-radius: 16px;
+    font-size: 45px;
+    background-color: #C6E4D6;
+    border: 1px solid rgba(198, 228, 214, 1);
+    transition: .5s;
+  }
+
+  .back:hover{
+    background-color: #5490F5;
+    color: #FFFFFF;
+  }
+.amountContent input {
+    margin-top: 32px;
+    height: 70px;
+    width: 1200px;
+    text-align: center;
+    border: none;
+    outline: none;
+    color: rgba(14, 14, 14, 0.3);
+    font-weight: 400;
+}
+.donateBtn button {
+    margin-top: 32px;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 17px 34px;
+    border-radius: 8px;
+    background-color: rgba(0, 106, 80, 1);
+    border: none;
+    transition: 0.5s ease;
+    color: rgba(255, 255, 255, 1);  
+    border: 1px solid #006A50;
+    cursor: pointer;
+}
+.donateBtn button:hover {
+    background-color: #FFFFFF;
+    border: 1px solid #006A50;
+    color: #006A50;
+}
+.donateBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subscribe {
+    background-color: #C6E4D6;
+    margin: 80px 160px;
+    border-radius: 24px;
+    height: 395px;
+    width: auto;
+    padding-top: 80px;
+}
+.subheading {
+    font-size: 40px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 1);
+    margin-top: 16px;
+    text-align: center;
+}
+.subtitle {
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.5);
+    font-weight: 400;
+    text-align: center;
+    margin-top: 20px;
+}
+.emailContent {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+form input[type='email']{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(14, 14, 14);
+    padding: 18px 40px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: none;
+    background-color: rgba(255, 255, 255, 1);
+    outline: none;
+    width: 602px;
+    height: 55px;
+    position: relative;
+}
+.emailBtn {
+    font-size: 18px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(0, 106, 80, 1);
+    padding: 17px 34px;
+    border: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 150px;
+    height: 56px;
+    position: absolute;
+    cursor: pointer;
+}
+.emailBtn:hover {
+    border: 1px solid rgba(0, 106, 80, 1);
+    transition: 0.5s ease;
+    background: none;
+    color: rgba(0, 106, 80, 1);
+}
+.emailFooter {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 24px;
+}
+.footerheading h1 {
+    font-size: 32px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 1);
+    text-align: center;
+    
+}
+footer hr {
+    height: 1px;
+    margin: 30px 160px;
+}
+.icons {
+   text-align: center;
+   margin-bottom: 40px;
+}
+.icons img {
+    padding: 10px;
 }
