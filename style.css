@@ -202,3 +202,18 @@ nav {
     color: rgba(14, 14, 14, 0.6);
     font-weight: 400;
 }
+.news {
+    margin: 80px 160px;
+}
+.newsheading {
+    color: rgba(14, 14, 14, 1);
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+.newstitle {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.7);
+}
+
