@@ -1,0 +1,79 @@
+body {
+     background-color: #F5F5F5; 
+    
+ }
+.fonts {
+    font-family: "Fira Sans", serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    margin: 30px 160px;
+}
+.navhead {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar {
+    font-size: 32px;
+    font-weight: bold;
+    color: #0E0E0E;
+    
+}
+.navBtn {
+    font-weight: 600;
+    font-size: 18px;
+    color: #006A50;
+    padding: 15px 30px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: 1px solid #006A50;
+}
+.navBtn:hover{
+    background-color: #006A50;
+    color: #FFFFFF;
+    transition: 0.5s ease;
+}
+.banner {
+    display: flex;
+    justify-content: space-around;
+    background-color: #C6E4D6;
+    margin: 0 160px;
+    border-radius: 24px;
+    padding: 100px 80px;
+}
+.bannerTitle {
+    font-weight: 500;
+    font-size: 24px;
+    color: rgba(14, 14, 14, 0.5);
+}
+.bannerHeading {
+    font-weight: bold;
+    font-size: 56px;
+    color: #0E0E0E;
+    margin-top: 16px;
+}
+.bannerBtn {
+    font-weight: 600;
+    font-size: 18px;
+    padding: 17px 34px;
+    color: #FFFFFF;
+    background-color: rgba(0, 106, 80, 1);
+    margin-top: 24px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+.bannerBtn:hover {
+    background: none;
+    color: rgba(0, 106, 80, 1);
+    border: 1px solid hwb(165 0% 58%);
+    transition: 0.5s ease;
+}
